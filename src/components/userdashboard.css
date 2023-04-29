@@ -1,0 +1,41 @@
+.userDashBoard_container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.userDashBoard_container h1,
+h2 {
+    text-align: center;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tabs button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.tabs button:hover {
+    background-color: #ddd;
+}
+
+.tabs button.active {
+    background-color: #720c0c;
+    color: #fff;
+}
+
+.tab-content {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
